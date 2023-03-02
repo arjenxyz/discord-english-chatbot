@@ -34,3 +34,6 @@ client.on("message", async message => {
 });
 
 client.login(process.env.CLIENT_TOKEN);
+
+const http = require("http");
+http.createServer((_, res) => res.end("Made By İtalyan")).listen(8080)
