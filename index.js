@@ -1,5 +1,5 @@
 import Discord from "discord.js";
-import { answer } from "./helpers.js";
+import { answer } from "./eleven.js";
 import dotenv from "dotenv";
 
 dotenv.config();
