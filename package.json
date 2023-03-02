@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JeherillaJanwar/AI-Discord_bot.git"
+    "url": "https://github.com/arjenxyz/discord-english-chatbot.git"
   },
   "keywords": [
     "ai",
     "discord",
     "bot"
   ],
-  "author": "JeherillaJanwar",
+  "author": "İtalyan#0142",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.3",
