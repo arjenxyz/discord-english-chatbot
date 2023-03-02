@@ -7,15 +7,15 @@ const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(`Yapay Zeka Aktif`, { type: "WATCHING"})
+  client.user.setActivity(`İtalyan#0142 Tarafından Yapılmıştır.`, { type: "COMPETING"})
 });
 
 client.on("reconnecting", () => {
-  console.log(`Reconnecting - ${client.user.tag}!`)
+  console.log(`Bağlanılıyor - ${client.user.tag}!`)
 });
 
 client.on("disconnect", () => {
-  console.log(`Disconnect - ${client.user.tag}!`)
+  console.log(`Bağlanılamadı - ${client.user.tag}!`)
 });
 
 client.on("message", async message => {
